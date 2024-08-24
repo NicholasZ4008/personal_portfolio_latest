@@ -1,0 +1,59 @@
+# Dependency directories
+
+node_modules
+npm-debug.log
+
+# Next.js build output
+
+.next
+
+# Environment files
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Version control
+
+.git
+.gitignore
+
+# IDE and editor files
+
+.vscode
+.idea
+_.swp
+_.swo
+
+# OS generated files
+
+.DS_Store
+Thumbs.db
+
+# Test coverage
+
+coverage
+
+# Logs
+
+logs
+\*.log
+
+# Temporary files
+
+_.tmp
+_.temp
+
+# Docker files (optional, depending on your setup)
+
+# Dockerfile
+
+# docker-compose.yml
+
+# Other unnecessary files for the Docker image
+
+README.md
+LICENSE
+\*.md

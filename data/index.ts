@@ -86,6 +86,14 @@ export const projects = [
     ],
     link: "nicholaszhang.ca",
   },
+  {
+    id: 2,
+    title: "Personal Server",
+    des: "Personal server to deploy personal apps and databases,",
+    img: "/penguin.avif",
+    iconLists: ["/ubuntu.svg", "/coolify.ico"],
+    link: "nicholaszhang.ca",
+  },
 ];
 
 export const testimonials = [
