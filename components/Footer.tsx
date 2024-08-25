@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
+        <h1 className="heading lg:max-w-[45vw] pb-14 sm:pb-8 md:pb-10 lg:pb-12">
           Wanna get in <span className="text-purple">Touch?</span>
         </h1>
 

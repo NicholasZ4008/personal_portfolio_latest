@@ -53,27 +53,23 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          {/**
-           *  Link: https://ui.aceternity.com/components/text-generate-effect
-           *
-           *  change md:text-6xl, add more responsive code
-           */}
-
           <TextGenerateEffect
             words="Hi! I'm Nick, a tech enthusiast."
             className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"
           />
 
-          <p className="text-center text-[40px] md:text-5xl lg:text-6xl h-32 overflow-hidden flex items-center font-semibold">
+          <p className="text-center text-[40px] md:text-5xl lg:text-6xl min-h-[120px] flex items-center justify-center font-semibold">
             {text}
           </p>
 
-          <MagicButton
-            title="Show my work"
-            icon={<FaLocationArrow />}
-            position="right"
-            href="#projects"
-          />
+          <div className="w-full max-w-[200px] sm:max-w-[250px] mt-6">
+            <MagicButton
+              title="Show my work"
+              icon={<FaLocationArrow />}
+              position="right"
+              href="#projects"
+            />
+          </div>
         </div>
       </div>
     </div>

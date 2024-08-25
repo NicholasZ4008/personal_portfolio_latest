@@ -92,7 +92,7 @@ export const projects = [
     des: "Personal server to deploy personal apps and databases,",
     img: "/penguin.avif",
     iconLists: ["/ubuntu.svg", "/coolify.ico"],
-    link: "nicholaszhang.ca",
+    link: "",
   },
 ];
 
@@ -174,7 +174,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Web Developer",
-    desc: "Developed and maintained a website for my school club",
+    desc: "Developed and maintained a website that increased student engagement with my university club.",
     company: "The Forum SFU",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",

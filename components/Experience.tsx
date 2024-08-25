@@ -40,9 +40,11 @@ const Experience = () => {
                   <h1 className="text-start text-xl md:text-2xl font-bold">
                     {card.title}
                   </h1>
+
                   <p className="text-start font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
                     {card.company}
                   </p>
+
                   <p className="text-start text-white-100 mt-3 font-semibold">
                     {card.desc}
                   </p>
