@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building an automated TikTok shorts generator",
+    title: "Writing the website for my automated TikTok shorts generator",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -89,10 +89,18 @@ export const projects = [
   {
     id: 2,
     title: "Personal Server",
-    des: "Personal server to deploy personal apps and databases,",
+    des: "Personal server to deploy personal apps and databases",
     img: "/penguin.avif",
     iconLists: ["/ubuntu.svg", "/coolify.ico"],
     link: "",
+  },
+  {
+    id: 3,
+    title: "Automated Tiktok Video Generator",
+    des: "Easily creates trendy tiktok content with captions!",
+    img: "/generator.png",
+    iconLists: ["/python.png"],
+    link: "tiktokgenerator.com",
   },
 ];
 
