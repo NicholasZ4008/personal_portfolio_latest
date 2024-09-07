@@ -99,7 +99,13 @@ export const projects = [
     title: "Tiktok Video Generator",
     des: "Easily creates trendy tiktok content with captions!",
     img: "/generator.svg",
-    iconLists: ["/python.png", "/angular.svg", "/nodejs.svg", "/ts.svg"],
+    iconLists: [
+      "/python.png",
+      "/angular.svg",
+      "/nodejs.svg",
+      "/ts.svg",
+      "/fast.svg",
+    ],
     link: "tiktokgenerator.com",
   },
 ];
