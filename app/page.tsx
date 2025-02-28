@@ -1,12 +1,12 @@
 "use client";
 
-import { navItems } from "@/data";
-import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
-import Footer from "@/components/Footer";
-import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
+import { navItems } from "@/app/data";
+import Hero from "@/app/sections/Hero";
+import Grid from "@/app/sections/Grid";
+import Footer from "@/app/sections/Footer";
+import Experience from "@/app/sections/Experience";
+import RecentProjects from "@/app/sections/RecentProjects";
+import { FloatingNav } from "@/app/sections/components/FloatingNavbar";
 
 const Home = () => {
   return (

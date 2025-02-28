@@ -1,7 +1,7 @@
 import { FaLocationArrow } from "react-icons/fa6";
-import MagicButton from "./MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import MagicButton from "./components/MagicButton";
+import { Spotlight } from "./components/Spotlight";
+import { TextGenerateEffect } from "./components/TextGenerateEffect";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 const Hero = () => {
