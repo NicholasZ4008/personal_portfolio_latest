@@ -1,7 +1,6 @@
-//aka Contact
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/app/data";
-import MagicButton from "./components/MagicButton";
+import MagicButton from "./ui/MagicButton";
 
 const Footer = () => {
   return (
