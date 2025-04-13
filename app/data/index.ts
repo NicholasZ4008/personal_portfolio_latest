@@ -5,6 +5,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
+  { name: "Resume", link: "/resume.pdf", download: true },
 ];
 
 export const gridItems = [
@@ -76,9 +77,9 @@ export const projects = [
     id: 1,
     title: "NextJS Personal Portfolio",
     des: "Beautiful display of projects and work experience",
-    img: "/personal_portfolio.svg",
+    img: "/portfolio-white.png",
     iconLists: [
-      "/re.svg",
+      "/nextjs.svg",
       "/tail.svg",
       "/ts.svg",
       "/three.svg",
@@ -90,7 +91,7 @@ export const projects = [
     id: 2,
     title: "Personal Server",
     des: "Personal server to deploy personal apps and databases",
-    img: "/penguin.avif",
+    img: "/ubuntu.png",
     iconLists: ["/ubuntu.svg", "/coolify.ico"],
     link: "",
   },
@@ -98,15 +99,23 @@ export const projects = [
     id: 3,
     title: "Tiktok Video Generator",
     des: "Easily creates trendy tiktok content with captions!",
-    img: "/generator.svg",
+    img: "/tiktok_logo.png",
     iconLists: [
       "/python.png",
-      "/angular.svg",
-      "/nodejs.svg",
       "/ts.svg",
       "/fast.svg",
+      "/nextjs.svg",
+      "/tail.svg",
     ],
     link: "tiktokgenerator.com",
+  },
+  {
+    id: 4,
+    title: "The Forum Main Page",
+    des: "School club main page displaying upcoming events with a email sign-up",
+    img: "/forum_white_logo.png",
+    iconLists: ["/nextjs.svg", "/tail.svg", "/dotnet.svg"],
+    link: "theforumuniversity.com",
   },
 ];
 
@@ -179,7 +188,7 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Test Intern",
+    title: "Frontend Test Engineer",
     desc: "Implemented unit testing protocols, resulting in substantial decrease in bug detection time.",
     company: "Epic Safety",
     className: "md:col-span-2",
@@ -187,7 +196,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Web Developer",
+    title: "Lead Web Developer",
     desc: "Developed and maintained a website that increased student engagement with my university club.",
     company: "The Forum SFU",
     className: "md:col-span-2", // change to md:col-span-2
@@ -201,13 +210,14 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+  {
+    id: 4,
+    title: "Web Application Developer",
+    desc: "Incoming",
+    company: "Government of Canada",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
 ];
 
 export const socialMedia = [

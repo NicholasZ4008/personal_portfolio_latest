@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/app/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -30,7 +29,7 @@ const RecentProjects = () => {
                   <img
                     src={item.img}
                     alt="cover"
-                    className="z-10 absolute bottom-0"
+                    className="z-10 absolute bottom-0 max-h-full max-w-full object-contain"
                   />
                 </div>
 

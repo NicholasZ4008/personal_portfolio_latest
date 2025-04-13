@@ -6,18 +6,23 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import Link from "next/link";
-import { cn } from "@/app/lib/utils";
+import { cn } from "@/lib/utils";
 
 export const FloatingNav = ({
   navItems,
   className,
+  resumePath,
+  resumeFileName,
 }: {
   navItems: {
     name: string;
     link: string;
     icon?: JSX.Element;
+    download?: boolean;
   }[];
   className?: string;
+  resumePath?: string;
+  resumeFileName?: string;
 }) => {
   const { scrollY } = useScroll();
   const [visible, setVisible] = useState(true);
@@ -42,8 +47,12 @@ export const FloatingNav = ({
   //added to fix the 'shifting down' on-click issue
   const handleNavClick = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    href: string
+    href: string,
+    download?: boolean
   ) => {
+    // If it's a download link, let the default behavior happen
+    if (download) return;
+
     e.preventDefault();
     const targetElement = document.querySelector(href);
     if (targetElement) {
@@ -94,9 +103,11 @@ export const FloatingNav = ({
           <Link
             key={`link=${idx}`}
             href={navItem.link}
-            onClick={(e) => handleNavClick(e, navItem.link)}
+            download={navItem.download ? resumeFileName || true : undefined}
+            onClick={(e) => handleNavClick(e, navItem.link, navItem.download)}
             className={cn(
-              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+              "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500",
+              navItem.download ? "text-purple hover:text-purple/80" : ""
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
