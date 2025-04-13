@@ -86,6 +86,7 @@ export const projects = [
       "/aceternity.svg",
     ],
     link: "nicholaszhang.ca",
+    href: "https://nicholaszhang.ca",
   },
   {
     id: 2,
@@ -114,8 +115,9 @@ export const projects = [
     title: "The Forum Main Page",
     des: "School club main page displaying upcoming events with a email sign-up",
     img: "/forum_white_logo.png",
-    iconLists: ["/nextjs.svg", "/tail.svg", "/dotnet.svg"],
+    iconLists: ["/nextjs.svg", "/tail.svg", "/dotnet.svg", "/postgres.svg"],
     link: "theforumuniversity.com",
+    href: "https://theforumuniversity.com",
   },
 ];
 
