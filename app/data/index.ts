@@ -75,21 +75,6 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "NextJS Personal Portfolio",
-    des: "Beautiful display of projects and work experience",
-    img: "/portfolio-white.png",
-    iconLists: [
-      "/nextjs.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/three.svg",
-      "/aceternity.svg",
-    ],
-    link: "nicholaszhang.ca",
-    href: "https://nicholaszhang.ca",
-  },
-  {
-    id: 2,
     title: "Personal Server",
     des: "Personal server to deploy personal apps and databases",
     img: "/ubuntu.png",
@@ -97,27 +82,31 @@ export const projects = [
     link: "",
   },
   {
-    id: 3,
-    title: "Tiktok Video Generator",
-    des: "Easily creates trendy tiktok content with captions!",
-    img: "/tiktok_logo.png",
-    iconLists: [
-      "/python.png",
-      "/ts.svg",
-      "/fast.svg",
-      "/nextjs.svg",
-      "/tail.svg",
-    ],
-    link: "tiktokgenerator.com",
-  },
-  {
-    id: 4,
+    id: 2,
     title: "The Forum Main Page",
     des: "School club main page displaying upcoming events with a email sign-up",
     img: "/forum_white_logo.png",
     iconLists: ["/nextjs.svg", "/tail.svg", "/dotnet.svg", "/postgres.svg"],
     link: "theforumuniversity.com",
     href: "https://theforumuniversity.com",
+  },
+  {
+    id: 3,
+    title: "MonBattlers",
+    des: "a Unity-based C# Pokemon-style game!",
+    img: "/csharp.svg",
+    iconList: ["/csharp.svg", "/unity.svg"],
+    link: "",
+    href: "",
+  },
+  {
+    id: 4,
+    title: "Trading Bot",
+    des: "A bot that automates, extracts and analyzes financial data to make informed trading decisions",
+    img: "/Python.png",
+    iconList: ["/python.svg"],
+    link: "https://github.com/NicholasZ4008/Trading-Bot",
+    href: "https://github.com/NicholasZ4008/Trading-Bot",
   },
 ];
 
@@ -215,7 +204,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Web Application Developer",
-    desc: "Incoming",
+    desc: "Maintained and updated various official government websites such as Avadepth and EGDBooking",
     company: "Government of Canada",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
