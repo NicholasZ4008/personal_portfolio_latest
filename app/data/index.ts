@@ -95,7 +95,7 @@ export const projects = [
     title: "MonBattlers",
     des: "a Unity-based C# Pokemon-style game!",
     img: "/csharp.svg",
-    iconList: ["/csharp.svg", "/unity.svg"],
+    iconLists: ["/csharp.svg", "/unity.svg"],
     link: "",
     href: "",
   },
@@ -104,10 +104,19 @@ export const projects = [
     title: "Trading Bot",
     des: "A bot that automates, extracts and analyzes financial data to make informed trading decisions",
     img: "/Python.png",
-    iconList: ["/python.svg"],
+    iconLists: ["/python.svg"],
     link: "https://github.com/NicholasZ4008/Trading-Bot",
     href: "https://github.com/NicholasZ4008/Trading-Bot",
   },
+  {
+    id: 5,
+    title: "An Arm And A Leg",
+    des: "Town One Game Jam Project 2026",
+    img: "/anarmandaleg.png",
+    iconLists: ["/csharp.svg", "/unity.svg"],
+    link: "https://moycohen.itch.io/an-arm-and-a-leg",
+    href: "https://moycohen.itch.io/an-arm-and-a-leg",
+  }
 ];
 
 export const testimonials = [
